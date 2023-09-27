@@ -1,0 +1,43 @@
+input{
+    border-radius: 10px;
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    padding-left: 10px;
+}
+
+button.yes{
+    background-color: #F51B0F;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    color: white;
+    border: none;
+    transition: all 0.5s ease;
+}
+button.Play{
+    border: none;
+    border-radius: 4px;
+}
+button:hover{
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+.image-container:hover{
+transition: all 0.5s ease;
+transform: scale(1.1);
+}
+.image-container{
+    transition: all 0.5s ease;
+}
+a{
+    text-decoration: none;
+}
+.myname{
+    position:relative;
+}
+.parrafos{
+    display: flex;
+}
